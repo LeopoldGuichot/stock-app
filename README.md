@@ -31,7 +31,7 @@ Avant de pouvoir exécuter cette application, assurez-vous d'avoir installé les
    
 2. Run le Docker container
    
-  ```bash
+   ```bash
    docker run -p 8501:8501 streamlit-app
 
 3. Se rendre à l'adresse suivante http://localhost:8501 pour utiliser l'application
