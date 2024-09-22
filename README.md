@@ -24,16 +24,16 @@ Avant de pouvoir exécuter cette application, assurez-vous d'avoir installé les
    
 ## Utilisation 
 
-1. Creer la Docker image
+1. Créez la Docker image
    
    ```bash
    docker build -t streamlit-app .
    
-2. Run le Docker container
+2. Lancez le Docker container
    
    ```bash
    docker run -p 8501:8501 streamlit-app
 
-3. Se rendre à l'adresse suivante http://localhost:8501 pour utiliser l'application
+3. Rendez-vous à l'adresse suivante http://localhost:8501 pour utiliser l'application
 
 
