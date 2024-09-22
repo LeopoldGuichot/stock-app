@@ -11,7 +11,7 @@ Cette application Streamlit permet de sélectionner une entreprise américaine p
 
 Avant de pouvoir exécuter cette application, assurez-vous d'avoir installé les éléments suivants :
 
-- Python 3.x
+- Python 3.8
 - Les bibliothèques Python nécessaires (voir [Installation](#installation)).
 
 ## Installation
@@ -29,9 +29,11 @@ Avant de pouvoir exécuter cette application, assurez-vous d'avoir installé les
    ```bash
    docker build -t streamlit-app .
    
-3. Run le Docker container
+2. Run le Docker container
+   
   ```bash
    docker run -p 8501:8501 streamlit-app
-5. Se rendre à l'adresse suivante http://localhost:8501 pour utiliser k'application
+
+3. Se rendre à l'adresse suivante http://localhost:8501 pour utiliser k'application
 
 
